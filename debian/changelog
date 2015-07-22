@@ -1,0 +1,5 @@
+linux-image-odroidc2 (1.0) trusty; urgency=medium
+
+  * The package is intiated
+
+ -- Dongjin Kim <tobetter@gmail.com>  Wed, 15 Jun 2016 00:32:28 -0400
