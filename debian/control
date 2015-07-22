@@ -1,0 +1,15 @@
+Source: linux-image-4.2.0-rc1
+Section: kernel
+Priority: optional
+Provides: linux-image, linux-image-2.6, linux-modules-4.2.0-rc1
+Maintainer: Dongjin Kim <tobetter@gmail.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 4.2.0-rc1
+Homepage: http://www.kernel.org/
+
+Package: linux-image-4.2.0-rc1
+Architecture: armhf
+Depends: ${shlibs:Depens}, ${misc:Depends}
+Description: Linux kernel, version 4.2.0-rc1
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.2.0-rc1.
