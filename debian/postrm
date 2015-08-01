@@ -8,5 +8,5 @@ export DEB_MAINT_PARAMS=""
 # Tell initramfs builder whether it's wanted
 export INITRD=Yes
 
-test -d /etc/kernel/postrm.d && run-parts --arg="4.2.0-rc1-39" --arg="/boot/vmlinuz-4.2.0-rc1-39" /etc/kernel/postrm.d
+test -d /etc/kernel/postrm.d && run-parts --arg="4.2.0-rc1-40" --arg="/boot/vmlinuz-4.2.0-rc1-40" /etc/kernel/postrm.d
 exit 0
