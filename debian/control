@@ -9,7 +9,7 @@ Homepage: http://www.kernel.org/
 
 Package: linux-image-4.2.0-rc1-odroidxu4
 Architecture: armhf
-Depends: ${shlibs:Depens}, ${misc:Depends}
+Depends: ${shlibs:Depens}, ${misc:Depends}, odroid-boothelper
 Description: Linux kernel, version 4.2.0-rc1
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.2.0-rc1.
