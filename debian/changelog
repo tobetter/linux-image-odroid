@@ -1,4 +1,4 @@
-linux-image-odroidxu4 (48.0) UNRELEASED; urgency=medium
+linux-image-odroidxu4 (49.1) UNRELEASED; urgency=medium
 
   * odroidxu4-4.2.0-rc1-33
   * odroidxu4-4.2.0-rc1-36
@@ -11,8 +11,9 @@ linux-image-odroidxu4 (48.0) UNRELEASED; urgency=medium
   * odroidxu4-4.2.0-rc1-46
   * odroidxu4-4.2.0-rc1-47
   * odroidxu4-4.2.0-rc1-48
+  * odroidxu4-4.2.0-rc1-49
 
- -- Dongjin Kim <tobetter@gmail.com>  Tue, 11 Aug 2015 11:46:13 +0900
+ -- Dongjin Kim <tobetter@gmail.com>  Thu, 20 Aug 2015 01:03:39 +0900
 
 linux-image-odroidxu4 (1.0) precise; urgency=medium
 
