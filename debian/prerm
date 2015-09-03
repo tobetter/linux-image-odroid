@@ -3,10 +3,10 @@
 set -e
 
 # Pass maintainer script parameters to hook scripts
-export DEB_MAINT_PARAMS="$*"
+export DEB_MAINT_PARAMS=""
 
 # Tell initramfs builder whether it's wanted
 export INITRD=Yes
 
-test -d /etc/kernel/prerm.d && run-parts --arg="4.2.0" --arg="/boot/vmlinuz-4.2.0" /etc/kernel/prerm.d
+test -d /etc/kernel/prerm.d && run-parts --arg="4.2.0-49" --arg="/boot/vmlinuz-4.2.0-49" /etc/kernel/prerm.d
 exit 0
