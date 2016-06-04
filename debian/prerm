@@ -8,5 +8,5 @@ export DEB_MAINT_PARAMS=""
 # Tell initramfs builder whether it's wanted
 export INITRD=Yes
 
-test -d /etc/kernel/prerm.d && run-parts --arg="4.6.0-84-00014-g2b91411" --arg="/boot/vmlinuz-4.6.0-84-00014-g2b91411" /etc/kernel/prerm.d
+test -d /etc/kernel/prerm.d && run-parts --arg="4.6.0-86" --arg="/boot/vmlinuz-4.6.0-86" /etc/kernel/prerm.d
 exit 0
