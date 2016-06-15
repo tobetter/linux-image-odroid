@@ -1,3 +1,9 @@
+linux-image-odroidc2 (99.0) UNRELEASED; urgency=medium
+
+  * odroidc2-4.6.0-99
+
+ -- Dongjin Kim <tobetter@gmail.com>  Wed, 15 Jun 2016 19:15:38 +0900
+
 linux-image-odroidc2 (1.0) trusty; urgency=medium
 
   * The package is intiated
