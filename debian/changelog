@@ -1,3 +1,9 @@
+linux-image-odroidxu4 (152.0) UNRELEASED; urgency=medium
+
+  * odroidxu4-4.7.0-152
+
+ -- Dongjin Kim <tobetter@gmail.com>  Tue, 26 Jul 2016 14:04:04 +0900
+
 linux-image-odroidxu4 (1.0) precise; urgency=medium
 
   * The package is intiated
