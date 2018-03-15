@@ -1,0 +1,10 @@
+Package: linux-image-4.16.0-rc5-odroidc2-arm64
+Version: 4.16.0-rc5
+Architecture: arm64
+Maintainer: Dongjin Kim <tobetter@gmail.com>
+Installed-Size: 40216
+Depends: debconf (>= 0.5) | debconf-2.0
+Section: kernel
+Priority: optional
+Homepage: <insert the upstream URL, if relevant>
+Description: Linux kernel pre-built binary release package

@@ -1,0 +1,14 @@
+Source: linux-image-4.16.0-rc5-odroidc2-arm64
+Section: kernel
+Priority: optional
+Maintainer: Dongjin Kim <tobetter@gmail.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.8
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: https://anonscm.debian.org/collab-maint/dennis.git
+#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/dennis.git
+
+Package: linux-image-4.16.0-rc5-odroidc2-arm64
+Architecture: arm64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Linux kernel pre-built binary release package

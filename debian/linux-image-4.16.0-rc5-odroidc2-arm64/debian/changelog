@@ -1,0 +1,5 @@
+linux-image-4.16.0-rc5-odroidc2-arm64 (4.16.0-rc5) UNRELEASED; urgency=medium
+
+  * Initial release. (Closes: #XXXXXX)
+
+ -- Dongjin Kim <tobetter@gmail.com>  Thu, 15 Mar 2018 03:19:51 -0400

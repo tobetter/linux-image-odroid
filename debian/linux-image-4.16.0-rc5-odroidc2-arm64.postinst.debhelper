@@ -1,0 +1,7 @@
+# Automatically added by dh_installmodules/10.7.2ubuntu2
+if [ "$1" = "configure" ]; then
+	if [ -e /boot/System.map-4.16.0-rc5-odroidc2-arm64 ]; then
+		depmod -a -F /boot/System.map-4.16.0-rc5-odroidc2-arm64 4.16.0-rc5-odroidc2-arm64 || true
+	fi
+fi
+# End automatically added section

@@ -1,0 +1,11 @@
+# Automatically added by dh_installmodules/10.7.2ubuntu2
+if [ -e /boot/System.map-4.16.0-rc5-odroidc2-arm64 ]; then
+	depmod -a -F /boot/System.map-4.16.0-rc5-odroidc2-arm64 4.16.0-rc5-odroidc2-arm64 || true
+fi
+# End automatically added section
+# Automatically added by dh_installdebconf/10.7.2ubuntu2
+if [ "$1" = purge ] && [ -e /usr/share/debconf/confmodule ]; then
+	. /usr/share/debconf/confmodule
+	db_purge
+fi
+# End automatically added section
