@@ -1,0 +1,43 @@
+Source: linux-odroid
+Section: kernel
+Priority: optional
+Maintainer: Dongjin Kim <tobetter@gmail.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 4.8
+Homepage: http://github.com/tobetter/linux
+
+#
+# Upstream Linux kernel release
+#
+Package: linux-image-upstream-odroid
+Architecture: armhf arm64
+Depends:
+	linux-image-4.16.0-rc5-odroid-armmp [armhf],
+	linux-image-4.16.0-rc5-odroid-arm64 [arm64]
+Description: Upstream Linux kernel and modules
+ The Linux kernel and modules for Hardkernel's SBC ODROID based on
+ ARMv7/8 platforms.
+
+Package: linux-headers-upstream-odroid
+Architecture: armhf arm64
+Depends: linux-headers-4.16.0-rc5-all
+Description: All header files for upstream Linux kernel
+ This package provides the architecutre-specific kernel header files for
+ Hardkernel's SBC ODROID based on ARMv7/8 platforms.
+
+#
+# Long term support Linux kernel release
+#
+Package: linux-image-lts-odroid
+Architecture: arm64
+Depends: linux-image-3.16.0-1-odroid
+Description: Long-time support Linux kernel and modules
+ The Linux kernel and modules for Hardkernel's SBC ODROID based on ARMv8
+ platforms.
+
+Package: linux-headers-lts-odroid
+Architecture: arm64
+Depends: linux-headers-3.16.0-1-all
+Description: All header files for long-time-support Linux kernel
+ This package provides the architecutre-specific kernel header files for
+ Hardkernel's SBC ODROID based on ARMv8 platforms.

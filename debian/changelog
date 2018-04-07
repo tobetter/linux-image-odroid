@@ -1,0 +1,5 @@
+linux-odroid (2018.04) experimental; urgency=medium
+
+  * Initial release to lead Linux kernel release for Hardkernel's SBC ODROID boards.
+
+ -- Dongjin Kim <tobetter@gmail.com>  Sat, 07 Apr 2018 04:31:29 +0000
