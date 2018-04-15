@@ -12,15 +12,15 @@ Homepage: http://github.com/tobetter/linux
 Package: linux-image-upstream-odroid
 Architecture: armhf arm64
 Depends:
-	linux-image-4.16.0-1-odroid-armmp [armhf],
-	linux-image-4.16.0-1-odroid-arm64 [arm64]
+	linux-image-4.16.1-odroid-armmp [armhf],
+	linux-image-4.16.1-odroid-arm64 [arm64]
 Description: Upstream Linux kernel and modules
  The Linux kernel and modules for Hardkernel's SBC ODROID based on
  ARMv7/8 platforms.
 
 Package: linux-headers-upstream-odroid
 Architecture: armhf arm64
-Depends: linux-headers-4.16.0-1-all-odroid-arm64
+Depends: linux-headers-4.16.1-all-odroid-arm64
 Description: All header files for upstream Linux kernel
  This package provides the architecutre-specific kernel header files for
  Hardkernel's SBC ODROID based on ARMv7/8 platforms.
