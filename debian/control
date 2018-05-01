@@ -33,8 +33,7 @@ Description: All header files for upstream Linux kernel
 Package: linux-image-lts-odroid
 Architecture: arm64
 Depends:
-	linux-image-4.14.35-odroid-armmp [armhf],
-	linux-image-3.16.0-1-odroid-arm64 [arm64]
+	linux-image-4.14.35-odroid-armmp [armhf]
 Description: Long-time support Linux kernel and modules
  The Linux kernel and modules for Hardkernel's SBC ODROID based on ARMv8
  platforms.
@@ -42,8 +41,7 @@ Description: Long-time support Linux kernel and modules
 Package: linux-headers-lts-odroid
 Architecture: arm64
 Depends:
-	linux-headers-4.14.35-all-odroid-armhf [armhf],
-	linux-headers-3.16.0-1-all-odroid-arm64 [arm64]
+	linux-headers-4.14.35-all-odroid-armhf [armhf]
 Description: All header files for long-time-support Linux kernel
  This package provides the architecutre-specific kernel header files for
  Hardkernel's SBC ODROID based on ARMv8 platforms.
