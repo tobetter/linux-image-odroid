@@ -1,3 +1,9 @@
+linux-odroid (2018.08+nmu1) unstable; urgency=medium
+
+  * Add Linux kernel package for ODROID-N2
+
+ --  Dongjin Kim <tobetter@gmail.com>  Wed, 29 Aug 2018 23:36:51 +0900
+
 linux-odroid (2018.05+nmu3) unstable; urgency=medium
 
   * Linux v4.17-rc5
