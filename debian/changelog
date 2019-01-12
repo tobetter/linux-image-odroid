@@ -1,3 +1,9 @@
+linux-odroid (2019.01) unstable; urgency=medium
+
+  *  Reset the version to 2019.01
+
+ --  Dongjin Kim <tobetter@linuxfactory.or.kr>  Sat, 12 Jan 2019 11:38:50 +0900
+
 linux-odroid (2018.08+nmu1ubuntu1) unstable; urgency=medium
 
   *  Upgrade linux kernel package version 4.9.141 for ODROD-N2
