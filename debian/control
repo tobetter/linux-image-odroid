@@ -49,34 +49,58 @@ Description: All header files for long-time-support Linux kernel
 #
 # Board specific kernel image packages
 #
+Package: linux-image-odroidxu4
+Architecture: armhf
+Depends: linux-image-5.0.0-odroid-upstream-armmp [armhf],
+Description: Upstream Linux kernel and modules
+ The Linux kernel and modules for Hardkernel's SBC ODROID based on
+ ARMv7/8 platforms.
+
+Package: linux-headers-odroidxu4
+Architecture: armhf
+Depends: linux-headers-5.0.0-odroid-upstream-armhf [armhf]
+Description: All header files for upstream Linux kernel
+ This package provides the architecutre-specific kernel header files for
+ Hardkernel's SBC ODROID based on ARMv7/8 platforms.
+
+Package: linux-image-odroidc2
+Architecture: arm64
+Depends: linux-image-5.0.0-odroid-upstream-arm64 [arm64],
+Description: Kernel package for ODROID-C3
+ The Linux kernel and modules for Hardkernel's SBC ODROID based on ARMv8
+ platforms.
+
+Package: linux-headers-odroidc2
+Architecture: arm64
+Depends: linux-headers-5.0.0-odroid-upstream-arm64 [arm64]
+Description: Kernel package for ODROID-C3
+ This package provides the architecutre-specific kernel header files for
+ Hardkernel's SBC ODROID based on ARMv8 platforms.
+
 Package: linux-image-odroidc3
 Architecture: arm64
-Depends:
-	linux-image-4.9.141-odroidn2-arm64 [arm64]
+Depends: linux-image-4.9.141-odroidn2-arm64 [arm64]
 Description: Kernel package for ODROID-C3
  The Linux kernel and modules for Hardkernel's SBC ODROID based on ARMv8
  platforms.
 
 Package: linux-headers-odroidc3
 Architecture: arm64
-Depends:
-	linux-headers-4.9.141-odroidn2-arm64 [arm64]
+Depends: linux-headers-4.9.141-odroidn2-arm64 [arm64]
 Description: Kernel package for ODROID-C3
  This package provides the architecutre-specific kernel header files for
  Hardkernel's SBC ODROID based on ARMv8 platforms.
 
 Package: linux-image-odroidn2
 Architecture: arm64
-Depends:
-	linux-image-4.9.141-odroidn2-arm64 [arm64]
+Depends: linux-image-4.9.141-odroidn2-arm64 [arm64]
 Description: Kernel package for ODROID-N2
  The Linux kernel and modules for Hardkernel's SBC ODROID based on ARMv8
  platforms.
 
 Package: linux-headers-odroidn2
 Architecture: arm64
-Depends:
-	linux-headers-4.9.141-odroidn2-arm64 [arm64]
+Depends: linux-headers-4.9.141-odroidn2-arm64 [arm64]
 Description: Kernel package for ODROID-N2
  This package provides the architecutre-specific kernel header files for
  Hardkernel's SBC ODROID based on ARMv8 platforms.
