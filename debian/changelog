@@ -1,3 +1,9 @@
+linux-odroid (2019.02-2) stable; urgency=medium
+
+  * Reset the version to 2019.02-2
+
+ --  Dongjin Kim <tobetter@linuxfactory.or.kr>  Fri, 15 Feb 2019 07:19:07 +0900
+
 linux-odroid (2019.02-1) stable; urgency=medium
 
   * ODROID-N2: v4.9.156
