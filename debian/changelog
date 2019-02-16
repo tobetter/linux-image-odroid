@@ -1,3 +1,9 @@
+linux-odroid (2019.02+hdkd3) stable; urgency=medium
+
+  * 2019.02+hkdk3
+
+ --  Dongjin Kim <tobetter@linuxfactory.or.kr>  Sat, 16 Feb 2019 20:00:41 +0900
+
 linux-odroid (2019.02-2) stable; urgency=medium
 
   * Reset the version to 2019.02-2
