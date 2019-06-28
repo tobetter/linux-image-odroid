@@ -98,28 +98,28 @@ Description: Kernel package for ODROID-C2
 
 Package: linux-image-odroidc3
 Architecture: arm64
-Depends: linux-image-4.9.180-odroidn2-arm64 [arm64]
+Depends: linux-image-4.9.182-odroidn2-arm64 [arm64]
 Description: Kernel package for ODROID-C3
  The Linux kernel and modules for Hardkernel's SBC ODROID based on ARMv8
  platforms.
 
 Package: linux-headers-odroidc3
 Architecture: arm64
-Depends: linux-headers-4.9.180-odroidn2-arm64 [arm64]
+Depends: linux-headers-4.9.182-odroidn2-arm64 [arm64]
 Description: Kernel package for ODROID-C3
  This package provides the architecutre-specific kernel header files for
  Hardkernel's SBC ODROID based on ARMv8 platforms.
 
 Package: linux-image-odroidn2
 Architecture: arm64
-Depends: linux-image-4.9.180-odroidn2-arm64 [arm64]
+Depends: linux-image-4.9.182-odroidn2-arm64 [arm64]
 Description: Kernel package for ODROID-N2
  The Linux kernel and modules for Hardkernel's SBC ODROID based on ARMv8
  platforms.
 
 Package: linux-headers-odroidn2
 Architecture: arm64
-Depends: linux-headers-4.9.180-odroidn2-arm64 [arm64]
+Depends: linux-headers-4.9.182-odroidn2-arm64 [arm64]
 Description: Kernel package for ODROID-N2
  This package provides the architecutre-specific kernel header files for
  Hardkernel's SBC ODROID based on ARMv8 platforms.
