@@ -1,3 +1,9 @@
+linux-odroid (2019.09+hkdk3) stable; urgency=medium
+
+  * 2019.09+hkdk3
+
+ --  Dongjin Kim <tobetter@gmail.com>  Mon, 16 Sep 2019 22:48:53 +0900
+
 linux-odroid (2019.09+hkdk2) stable; urgency=medium
 
   * 2019.09+hkdk2
