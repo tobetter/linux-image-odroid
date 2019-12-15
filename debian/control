@@ -70,14 +70,16 @@ Description: All header files for upstream Linux kernel
 #
 Package: linux-image-odroidxu4
 Architecture: armhf
-Depends: linux-image-5.1.2-odroid-upstream-armmp [armhf],
+Depends:
+	linux-image-5.4.0-odroid-memeka-armmp [armhf]
 Description: Upstream Linux kernel and modules
  The Linux kernel and modules for Hardkernel's SBC ODROID based on
  ARMv7/8 platforms.
 
 Package: linux-headers-odroidxu4
 Architecture: armhf
-Depends: linux-headers-5.1.2-odroid-upstream-armhf [armhf]
+Depends:
+	linux-headers-5.4.0-odroid-memeka-armhf [armhf]
 Description: All header files for upstream Linux kernel
  This package provides the architecutre-specific kernel header files for
  Hardkernel's SBC ODROID based on ARMv7/8 platforms.
